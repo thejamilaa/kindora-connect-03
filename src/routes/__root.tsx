@@ -84,14 +84,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Kindora connects students with nearby volunteer opportunities from NGOs, schools, and companies. Build experience, earn certificates, and strengthen your future.",
       },
       { name: "author", content: "Kindora" },
-      { property: "og:title", content: "Kindora — Volunteer opportunities near you" },
+      { property: "og:title", content: "Kindora — Find Volunteer Opportunities Near You" },
       {
         property: "og:description",
         content:
-          "Discover local volunteer opportunities, build your portfolio, and make an impact in your community.",
+          "Kindora connects students with nearby volunteer opportunities from NGOs, schools, and companies. Build experience, earn certificates, and strengthen your future.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Kindora — Find Volunteer Opportunities Near You" },
+      { name: "twitter:description", content: "Kindora connects students with nearby volunteer opportunities from NGOs, schools, and companies. Build experience, earn certificates, and strengthen your future." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ad287d9a-afae-4cf9-b8af-3a7bf0bdb885/id-preview-bce07742--d1e23dc4-520e-4748-87cb-c5f692211aff.lovable.app-1785123896777.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ad287d9a-afae-4cf9-b8af-3a7bf0bdb885/id-preview-bce07742--d1e23dc4-520e-4748-87cb-c5f692211aff.lovable.app-1785123896777.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
